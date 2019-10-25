@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import propTypes from 'prop-types';
 
-export class TodoItem extends React.Component {
+export class TodoItem extends Component {
     getStyle = () => {
         return {
             background: '#f4f4f4',
